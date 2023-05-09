@@ -1,7 +1,7 @@
 {
     "name": "doublybear/randomnamegenerator",
     "description": "A friendly, non aggressive adjective noun verb name generator.",
-    "license": "dual",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Doublybear\\RandomNameGenerator\\": "src/"
