@@ -43,7 +43,7 @@ class RandomNameGenerator {
         $noun = $this->getRandomElement($this->nouns);
         $verb = $this->getRandomElement($this->verbs);
 
-        return ucfirst($adj) . ' ' . ucfirst($noun) . ' ' . ucfirst($verb);
+        return ucfirst($adj) . ' ' . ucfirst($verb) . ' ' . ucfirst($noun);
     }
 
     public function generateSlug($name): string
