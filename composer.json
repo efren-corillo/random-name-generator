@@ -1,0 +1,17 @@
+{
+    "name": "doublybear/randomnamegenerator",
+    "description": "A friendly, non aggressive adjective noun verb name generator.",
+    "license": "dual",
+    "autoload": {
+        "psr-4": {
+            "Doublybear\\RandomNameGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "efren-corillo",
+            "email": "efren.corillo@doublybear.dev"
+        }
+    ],
+    "require": {}
+}
