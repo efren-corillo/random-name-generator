@@ -5,6 +5,6 @@
 
 $r = new RandomNameGenerator;
 
-$name = $r->generateWords(); #output: Playful Incredible Jalapeno
-$slug = $r->generateSlug($name); #outpout: playful-incredible-jalapeno
+$name = $r->generateWords(); #random output: Playful Incredible Jalapeno
+$slug = $r->generateSlug($name); #slugged outpout: playful-incredible-jalapeno
 ```
