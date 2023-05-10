@@ -1,8 +1,10 @@
+# How to install
+```composer require doublybear/randomnamegenerator```
 # Usage
-use Doublybear\RandomNameGenerator\RandomNameGenerator;
-
+```use Doublybear\RandomNameGenerator\RandomNameGenerator;
 
 $r = new RandomNameGenerator;
 
-$name = $r->generateWords();
-$slug = $r->generateSlug($name);
+$name = $r->generateWords(); #output: Playful Incredible Jalapeno
+$slug = $r->generateSlug($name); #outpout: playful-incredible-jalapeno
+```
