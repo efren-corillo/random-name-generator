@@ -1,7 +1,12 @@
 # How to install
 ```composer require doublybear/randomnamegenerator```
 # Usage
-```use Doublybear\RandomNameGenerator\RandomNameGenerator;
+```
+<?php
+require('../vendor/autoload.php');
+
+use Doublybear\RandomNameGenerator\RandomNameGenerator;
+
 
 $r = new RandomNameGenerator;
 
