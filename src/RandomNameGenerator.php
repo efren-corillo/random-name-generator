@@ -12,8 +12,12 @@ class RandomNameGenerator {
 
 	public function __construct() {
 		$this->adjectives = [
-	            'adorable', 'ambitious', 'breezy', 'bright', 'calm', 'cheerful', 'courageous', 'creative', 'delightful', 'determined', 'eager', 'enthusiastic', 'friendly', 'funny', 'gentle', 'happy', 'harmonious', 'humble', 'imaginative', 'jovial', 'kind', 'lively', 'loving', 'modest', 'optimistic',
-	            'patient', 'peaceful', 'playful', 'polite', 'positive', 'proud', 'quiet', 'reliable', 'respectful', 'sincere', 'smart', 'strong', 'thoughtful', 'trustworthy', 'warm', 'wise', 'witty', 'zesty',
+            'adorable', 'ambitious', 'breezy', 'bright', 'calm', 'cheerful', 'courageous', 'creative', 'delightful', 'determined', 'eager', 'enthusiastic', 'friendly', 'funny', 'gentle', 'happy', 'harmonious', 'humble', 'imaginative', 'jovial', 'kind', 'lively', 'loving', 'modest', 'optimistic',
+            'patient', 'peaceful', 'playful', 'polite', 'positive', 'proud', 'quiet', 'reliable', 'respectful', 'sincere', 'smart', 'strong', 'thoughtful', 'trustworthy', 'warm', 'wise', 'witty', 'zesty', 'adventurous', 'affectionate', 'agreeable', 'amiable', 'amusing', 'animated',
+            'appreciative', 'ardent', 'attentive', 'benevolent', 'blissful', 'bold', 'bubbly', 'captivating', 'caring', 'charming', 'compassionate', 'confident', 'congenial', 'considerate', 'content', 'daring', 'dynamic', 'eager', 'earnest', 'ebullient', 'empathetic', 'energetic',
+            'engaging', 'entertaining', 'exuberant', 'faithful', 'fearless', 'frank', 'friendly', 'generous', 'genuine', 'gracious', 'grateful', 'gregarious', 'harmonious', 'heartfelt', 'honest', 'hopeful', 'humorous', 'inquisitive', 'insightful', 'inspiring', 'intelligent',
+            'intrepid', 'joyful', 'jubilant', 'keen', 'lighthearted', 'likable', 'loyal', 'magnanimous', 'merry', 'mindful', 'noble', 'open-minded', 'passionate', 'peaceful', 'plucky', 'radiant', 'resilient', 'sanguine', 'satisfied', 'sensitive', 'serene', 'sociable',
+            'spirited', 'spontaneous', 'steadfast', 'sunny', 'supportive', 'sympathetic', 'tenacious', 'tender', 'tranquil', 'undaunted', 'unflappable', 'upbeat', 'valiant', 'vibrant', 'warmhearted', 'welcoming', 'wholehearted', 'willing', 'winsome', 'zealous'
 	        ];
 
 		$this->nouns = [
